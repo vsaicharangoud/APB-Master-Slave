@@ -21,10 +21,10 @@ The following block diagram illustrates the overall architecture of the APB Mast
 - Waveform-verified functionality
 
 ## Directory Structure
-rtl/ -> Master and Slave RTL
-tb/ -> Testbench
-docs/ -> Design explanation and notes
-waveforms/ -> Simulation screenshots
+- rtl/ -> Master and Slave RTL
+- tb/ -> Testbench
+- docs/ -> Design explanation and notes
+- waveforms/ -> Simulation screenshots
 
 ## How It Works
 - The system issues requests using req_valid / req_ready handshake
