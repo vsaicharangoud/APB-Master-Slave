@@ -5,6 +5,13 @@ This project implements a complete APB (Advanced Peripheral Bus) Master and Slav
 
 The design follows the AMBA APB protocol with clear separation between SETUP and ACCESS phases and supports both read and write transactions.
 
+## Block Diagram
+
+The following block diagram illustrates the overall architecture of the APB Master–Slave system, including the system-side interface, APB master FSM, and APB slave connections.
+
+![APB Master Slave Block Diagram](docs/Block_diagram.jpg)
+
+
 ## Features
 - FSM-based APB Master (IDLE, SETUP, ACCESS)
 - APB Slave with 8 memory-mapped registers
