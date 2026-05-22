@@ -9,7 +9,7 @@ The design follows the AMBA APB protocol with clear separation between SETUP and
 
 The following block diagram illustrates the overall architecture of the APB Master–Slave system, including the system-side interface, APB master FSM, and APB slave connections.
 
-![APB Master Slave Block Diagram](docs/Block_diagram.jpg)
+![APB Master Slave Block Diagram](docs/APB_Block_Diagram.png)
 
 
 ## Features
